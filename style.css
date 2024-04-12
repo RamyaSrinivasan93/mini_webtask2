@@ -1,0 +1,43 @@
+.wrapper {
+    display: grid;
+  }
+  .eve{
+    text-align:center;
+  }
+  .wrapper > div {
+     padding: 1em;
+  }
+  .img{
+    
+    float: right;
+  }
+  .box {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .ntm{
+    padding: 50px;
+    margin-top: 50px;
+   
+  }
+  .firstname{
+    font-weight: bold;
+    padding-left: 15px;
+  }
+  input[type=text] 
+  {
+    width: 80%;
+    padding: 7px;
+   
+    margin: 8px 0;
+    box-sizing: border-box;
+  }input[type=number] 
+  {
+    width: 80%;
+    padding: 7px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  .form{
+    float:inline-start;
+  }
